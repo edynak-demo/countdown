@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './resources/styles.css';
 
 import Header from './components/topAndBottom/Header';
+import Footer from './components/topAndBottom/Footer';
 import Featured from './components/featured';
 import VenueInfo from './components/venueInfo';
 import Highlight from './components/Highlights';
@@ -21,6 +22,7 @@ class App extends Component {
         <Highlight />
         <Pricing />
         <Location />
+        <Footer />
       </div>
     );
   }
